@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TMath">
+      <UniqueIdentifier>{5e2c117c-5af8-456d-a900-bf31a28ff258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TMath\src">
+      <UniqueIdentifier>{5877d625-2974-43b6-99b0-3baa25f907d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TMath\inc">
+      <UniqueIdentifier>{c835fc7c-2e08-45e1-baa9-1b56e239ea67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TUtility">
+      <UniqueIdentifier>{198f63c7-4b37-4d9c-96b3-66804f649cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TUtility\src">
+      <UniqueIdentifier>{e1c9a6ec-66ea-48ab-a0d2-db658b4944f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TUtility\inc">
+      <UniqueIdentifier>{50f75cfc-2502-4a43-9648-22b81a689f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TInput">
+      <UniqueIdentifier>{a373678b-210f-4628-92ac-fa971ab2103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TInput\src">
+      <UniqueIdentifier>{3b64a1d0-cc0c-4b05-aaf5-7e3c98f3f254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TInput\inc">
+      <UniqueIdentifier>{4ff07794-a075-4a5e-83f2-5db83a81adc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCore">
+      <UniqueIdentifier>{dc0bd8ce-1873-43ba-91af-9d80df555527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCore\src">
+      <UniqueIdentifier>{83fb8a8a-a166-4234-b7c7-926f1a7bd50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCore\inc">
+      <UniqueIdentifier>{0b99eb41-f073-4b10-ab5c-986d3a911888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEngine">
+      <UniqueIdentifier>{5b8ee175-b946-4cf4-a561-04c180ed58cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEngine\src">
+      <UniqueIdentifier>{e1c66e1e-7bf4-492d-8dd9-b7dfc2ffe55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEngine\inc">
+      <UniqueIdentifier>{bf8ea076-9634-490e-ae78-4ef2e017beec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRender">
+      <UniqueIdentifier>{423a0a24-235e-4ebc-b121-b758c07e9457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRender\src">
+      <UniqueIdentifier>{950c061f-9ec7-47a2-807e-89081778bd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRender\inc">
+      <UniqueIdentifier>{71369dc9-83c0-433e-9df5-98f992a057ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TNetwork">
+      <UniqueIdentifier>{6baa4c92-2dd4-4f07-81a5-d044adb35387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TNetwork\src">
+      <UniqueIdentifier>{07cf5f79-3db2-44a8-9adc-b7d5c47a48f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TNetwork\inc">
+      <UniqueIdentifier>{d21a09e5-d792-4244-8336-60032b62e2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TLib">
+      <UniqueIdentifier>{528659bc-c82d-4c7e-87c8-746b220b1722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TLib\src">
+      <UniqueIdentifier>{75c4a0a5-5f3a-4328-9f84-4dc34f2b6ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TLib\inc">
+      <UniqueIdentifier>{9a96aa17-c946-4cbe-b89e-a462cc263b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEvent">
+      <UniqueIdentifier>{73d98705-835b-489e-a6cd-2c41029875b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEvent\src">
+      <UniqueIdentifier>{caed848c-237a-4c29-b561-1eb1675bba6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEvent\inc">
+      <UniqueIdentifier>{0370208c-26b4-49b1-906f-678a977be37a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFileSystem">
+      <UniqueIdentifier>{0abd3b1f-db97-4339-ba3f-3941970c9586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFileSystem\inc">
+      <UniqueIdentifier>{b472ce2a-5838-4409-9cf4-da0672125cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TFileSystem\src">
+      <UniqueIdentifier>{a5e7b35d-18b1-44b7-beac-e889f8bd49a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TScript">
+      <UniqueIdentifier>{cd229eee-2231-4581-9034-e39f447d161e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TScript\inc">
+      <UniqueIdentifier>{db6aa74a-2cf0-4509-b23d-7107884ec0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TScript\src">
+      <UniqueIdentifier>{fe2a335d-c381-43fd-a0eb-f349e545316f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TScript\API">
+      <UniqueIdentifier>{cc3a6dcc-7e3e-4e8f-9d36-76671b816e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI">
+      <UniqueIdentifier>{b8eaf19d-6f80-4632-aa3c-9ac1fa74f7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI\inc">
+      <UniqueIdentifier>{3467c769-8e15-42b7-a9d9-af4b00c9404e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAI\src">
+      <UniqueIdentifier>{af5d3307-1b39-456f-bd99-844c7d4fa389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TUI">
+      <UniqueIdentifier>{36b484fd-7c4f-4431-b01a-27646ae6ddc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TUI\src">
+      <UniqueIdentifier>{98192da7-4c6a-447f-872a-2262c246886c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TUI\inc">
+      <UniqueIdentifier>{898b919f-3d1e-4e78-b212-48609d1bcd83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{81094ccf-a3ca-4314-93dd-3e76f30b633f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\tlibmain\TMath_Basic.cpp">
+      <Filter>TMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TMath_Matrix3.cpp">
+      <Filter>TMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TMath_Matrix4.cpp">
+      <Filter>TMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TMath_Quaternion.cpp">
+      <Filter>TMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TMath_Vector2.cpp">
+      <Filter>TMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TMath_Vector3.cpp">
+      <Filter>TMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TMath_Vector4.cpp">
+      <Filter>TMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TUtility_Logger.cpp">
+      <Filter>TUtility\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TUtility_ProcessSharedMemory.cpp">
+      <Filter>TUtility\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TInput_InputDevice.cpp">
+      <Filter>TInput\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TInput_InputManager.cpp">
+      <Filter>TInput\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TCore_Allocator.cpp">
+      <Filter>TCore\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TCore_LibSettings.cpp">
+      <Filter>TCore\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TCore_Memory.cpp">
+      <Filter>TCore\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TCore_Mutex.cpp">
+      <Filter>TCore\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TCore_Panic.cpp">
+      <Filter>TCore\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TCore_Thread.cpp">
+      <Filter>TCore\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TEngine_ClockModule.cpp">
+      <Filter>TEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TEngine_Engine.cpp">
+      <Filter>TEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TEngine_EventModule.cpp">
+      <Filter>TEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TEngine_InputModule.cpp">
+      <Filter>TEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TEngine_NetworkModule.cpp">
+      <Filter>TEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TEngine_Object.cpp">
+      <Filter>TEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TEngine_RenderModule.cpp">
+      <Filter>TEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TEngine_SceneModule.cpp">
+      <Filter>TEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TEngine_ScriptModule.cpp">
+      <Filter>TEngine\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TRender_Camera.cpp">
+      <Filter>TRender\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TRender_Light.cpp">
+      <Filter>TRender\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TRender_Renderer.cpp">
+      <Filter>TRender\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TRender_RenderWindowMsg.cpp">
+      <Filter>TRender\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TRender_Texture.cpp">
+      <Filter>TRender\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TNetwork_UDTSocket.cpp">
+      <Filter>TNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TsiU_Func.cpp">
+      <Filter>TLib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TFS_FileManager.cpp">
+      <Filter>TFileSystem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TScript_Debugger.cpp">
+      <Filter>TScript\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TScript_Function.cpp">
+      <Filter>TScript\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TScript_Machine.cpp">
+      <Filter>TScript\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TScript_API.cpp">
+      <Filter>TScript\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tlibmain\TScript_API_Dbg.cpp">
+      <Filter>TScript\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TAI_BevTree.cpp">
+      <Filter>TAI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TAI_RefValue.cpp">
+      <Filter>TAI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TAI_StringID.cpp">
+      <Filter>TAI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TUI_FXEDXViewer.cpp">
+      <Filter>TUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TUI_FXEGDIViewer.cpp">
+      <Filter>TUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibMain\TsiU_PCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\tlibmain\TMath_Basic.h">
+      <Filter>TMath\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TMath_Header.h">
+      <Filter>TMath\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TMath_Matrix3.h">
+      <Filter>TMath\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TMath_Matrix4.h">
+      <Filter>TMath\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TMath_Point2.h">
+      <Filter>TMath\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TMath_Quaternion.h">
+      <Filter>TMath\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TMath_Vector2.h">
+      <Filter>TMath\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TMath_Vector3.h">
+      <Filter>TMath\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TMath_Vector4.h">
+      <Filter>TMath\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TUtility_AnyData.h">
+      <Filter>TUtility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TUtility_Array.h">
+      <Filter>TUtility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TUtility_BitArray.h">
+      <Filter>TUtility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TUtility_DebugConsole.h">
+      <Filter>TUtility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TUtility_Header.h">
+      <Filter>TUtility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TUtility_List.h">
+      <Filter>TUtility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TUtility_Logger.h">
+      <Filter>TUtility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TUtility_MemPool.h">
+      <Filter>TUtility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TUtility_ProcessSharedMemory.h">
+      <Filter>TUtility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TUtility_Singleton.h">
+      <Filter>TUtility\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TInput_Enum.h">
+      <Filter>TInput\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TInput_Header.h">
+      <Filter>TInput\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TInput_InputDevice.h">
+      <Filter>TInput\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TInput_InputManager.h">
+      <Filter>TInput\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TCore_Allocator.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TCore_Assert.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TCore_Creator.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TCore_Exception.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TCore_Header.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TCore_LibSettings.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TCore_Memory.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TCore_Mutex.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TCore_Panic.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TCore_Thread.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TCore_Tick.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TCore_Types.h">
+      <Filter>TCore\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_ClockModule.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_Engine.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_EventModule.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_Header.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_InputModule.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_Module.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_NetworkModule.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_Object.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_Private.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TEngine_RenderModule.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_SceneModule.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEngine_ScriptModule.h">
+      <Filter>TEngine\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TRender_Camera.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TRender_Color.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TRender_Enum.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TRender_Header.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TRender_Light.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TRender_Renderer.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TRender_RenderWindow.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TRender_RenderWindowMsg.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TRender_SimpleRenderObject.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TRender_Texture.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TRender_Viewport.h">
+      <Filter>TRender\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TNetwork_Header.h">
+      <Filter>TNetwork\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TNetwork_Socket.h">
+      <Filter>TNetwork\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TNetwork_UDTSocket.h">
+      <Filter>TNetwork\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TsiU.h">
+      <Filter>TLib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TsiU_Func.h">
+      <Filter>TLib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEvent_EventHandler.h">
+      <Filter>TEvent\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEvent_EventID.h">
+      <Filter>TEvent\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEvent_EventObject.h">
+      <Filter>TEvent\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TEvent_Header.h">
+      <Filter>TEvent\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TFS_File.h">
+      <Filter>TFileSystem\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TFS_FileManager.h">
+      <Filter>TFileSystem\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TFS_Header.h">
+      <Filter>TFileSystem\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TScript_Debugger.h">
+      <Filter>TScript\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TScript_Function.h">
+      <Filter>TScript\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TScript_Header.h">
+      <Filter>TScript\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TScript_Machine.h">
+      <Filter>TScript\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TScript_Private.h">
+      <Filter>TScript\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TScript_Variant.h">
+      <Filter>TScript\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TScript_API.h">
+      <Filter>TScript\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tlibmain\TScript_API_Dbg.h">
+      <Filter>TScript\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TAI_BevTree.h">
+      <Filter>TAI\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TAI_Header.h">
+      <Filter>TAI\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TAI_RefValue.h">
+      <Filter>TAI\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TAI_StringID.h">
+      <Filter>TAI\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TUI_FXEDXViewer.h">
+      <Filter>TUI\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TUI_FXEGDIViewer.h">
+      <Filter>TUI\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TUI_Header.h">
+      <Filter>TUI\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibMain\TsiU_PCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

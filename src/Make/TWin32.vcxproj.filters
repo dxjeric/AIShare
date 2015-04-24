@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{73306de0-bb3e-4644-a36d-c8cc8b919430}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\TLibWin32\TCore_WinPanic.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TCore_WinTick.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TInput_WinInputDevice.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TInput_WinInputManager.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TNetwork_WinSocket.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinDxDevice.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinDxMapping.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinDxRenderer.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinDxRenderWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinDxSimpleRenderObject.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinDxTexture.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinGDIBitmap.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinGDIJpeg.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinGDIMapping.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinGDIRenderer.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinGDIRenderWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinGDISimpleRenderObject.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinGUIMsg.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinMsg.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TRender_WinRenderWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TWin32_Header.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TWin32_Private.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TLibWin32\TWin32_PCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\TLibWin32\TCore_WinPanic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TInput_WinInputDevice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TInput_WinInputManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TNetwork_WinSocket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinDxDevice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinDxMapping.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinDxRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinDxRenderWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinDxSimpleRenderObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinDxTexture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinGDIBitmap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinGDIJpeg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinGDIMapping.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinGDIRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinGDIRenderWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinGDISimpleRenderObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinGUIMsg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TRender_WinMsg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TLibWin32\TWin32_PCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

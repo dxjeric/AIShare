@@ -1,0 +1,1805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ExternLibs\fox\src\FX4Splitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX7Segment.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX885910Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX885911Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX885913Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX885914Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX885915Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX885916Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX88591Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX88592Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX88593Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX88594Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX88595Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX88596Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX88597Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX88598Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FX88599Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXAccelTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXArrowButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxascii.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXBitmap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXBitmapFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXBitmapView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXBMPIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXBMPImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxbmpio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXBZFileStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCanvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCheckButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXChoiceBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXColorBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXColorDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXColorList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXColorNames.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXColorRing.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXColorSelector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXColorWell.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXColorWheel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXComboBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXComposeContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXComposite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP1250Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP1251Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP1252Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP1253Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP1254Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP1255Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP1256Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP1257Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP1258Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP437Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP850Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP852Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP855Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP856Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP857Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP860Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP861Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP862Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP863Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP864Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP865Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP866Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP869Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCP874Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCURCursor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXCursor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDataTarget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDC.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDCPrint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDCWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDebugTarget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDelegator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDial.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDialogBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDict.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDir.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDirBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDirDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDirList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDirSelector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDLL.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDockBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDockHandler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDockSite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDockTitle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDocument.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDragCorner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDrawable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXDriveBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXException.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXExpression.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXExtentd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXExtentf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxezquantize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFileDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFileDict.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFileList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxfilematch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFileSelector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFileStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFoldingList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFont.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFontDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFontSelector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxfsquantize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGIFCursor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGIFIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGIFImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxgifio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLCanvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLCone.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLCube.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLCylinder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLShape.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLSphere.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLTriangleMesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLViewer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGLVisual.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGradientBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGroupBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGUISignal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXGZFileStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXHash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXHeader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXHorizontalFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXICOIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXICOImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxicoio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXIconDict.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXIconList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXIconSource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXId.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXIFFIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXIFFImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxiffio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXImageFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXImageView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXInputDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXIO.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxjpegio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXJPGIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXJPGImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxkeyboard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxkeysym.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXKnob.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXKOI8RCodec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXLabel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXListBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMainWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMat3d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMat3f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMat4d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMat4f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMatrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMDIButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMDIChild.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMDIClient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMemMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMemoryStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMenuBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMenuButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMenuCaption.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMenuCascade.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMenuCheck.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMenuCommand.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMenuPane.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMenuRadio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMenuSeparator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMenuTitle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXMessageBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXObjectList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXOptionMenu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPacker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxparsegeometry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPCXIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPCXImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxpcxio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPicker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPipe.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPNGIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPNGImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxpngio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPoint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPopup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPPMIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPPMImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxppmio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXPrintDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxpriv.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXProgressBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXProgressDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxpsio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXQuatd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXQuatf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRadioButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRanged.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRangef.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRASIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRASImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxrasio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRealSlider.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRealSpinner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRecentFiles.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRectangle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRegion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRegistry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXReplaceDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRGBIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRGBImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxrgbio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRootWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRuler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXRulerView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXScrollArea.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXScrollBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXScrollPane.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXScrollWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSearchDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSeparator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSettings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXShell.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXShutter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSlider.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSocket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSphered.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSpheref.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSpinner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSplashWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSplitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSpring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXStat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXStatusBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXStatusLine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXStringDict.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSwitcher.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTabBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTabBook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTabItem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxtargaio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXText.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTextCodec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTextField.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTGAIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTGAImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXThread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTIFIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTIFImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxtifio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXToggleButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXToolBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXToolBarGrip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXToolBarShell.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXToolBarTab.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXToolTip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTopWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTranslator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTreeList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTreeListBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXTriStateButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXUndoList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxunicode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXURL.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXUTF16Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXUTF32Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXUTF8Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxutils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXVec2d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXVec2f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXVec3d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXVec3f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXVec4d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXVec4f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXVerticalFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXVisual.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXWizard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxwuquantize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXXBMIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXXBMImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxxbmio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXXPMIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\FXXPMImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\fxxpmio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\icons.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\strtoll.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternLibs\fox\src\vsscanf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ExternLibs\fox\src\fxpriv.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\src\icons.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\src\jitter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\fx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\fx3d.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX4Splitter.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX7Segment.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX885910Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX885911Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX885913Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX885914Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX885915Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX885916Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX88591Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX88592Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX88593Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX88594Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX88595Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX88596Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX88597Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX88598Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FX88599Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXAccelTable.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXApp.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXArray.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXArrowButton.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\fxascii.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXBitmap.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXBitmapFrame.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXBitmapView.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXBMPIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXBMPImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXButton.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXBZFileStream.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCanvas.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCheckButton.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXChoiceBox.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXColorBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXColorDialog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXColorList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXColorRing.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXColorSelector.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXColorWell.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXColorWheel.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXComboBox.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXComposeContext.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXComposite.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP1250Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP1251Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP1252Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP1253Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP1254Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP1255Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP1256Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP1257Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP1258Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP437Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP850Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP852Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP855Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP856Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP857Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP860Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP861Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP862Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP863Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP864Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP865Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP866Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP869Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCP874Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCURCursor.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXCursor.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDataTarget.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDate.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDC.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDCPrint.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDCWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDebugTarget.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\fxdefs.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDelegator.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDial.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDialogBox.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDict.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDir.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDirBox.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDirDialog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDirList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDirSelector.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDLL.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDockBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDockHandler.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDockSite.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDockTitle.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDocument.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDragCorner.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDrawable.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXDriveBox.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXElement.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXException.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXExpression.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXExtentd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXExtentf.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFile.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFileDialog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFileDict.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFileList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFileSelector.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFileStream.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFoldingList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFont.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFontDialog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFontSelector.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXFrame.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGIFCursor.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGIFIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGIFImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLCanvas.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLCone.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLContext.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLCube.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLCylinder.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLObject.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLShape.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLSphere.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLTriangleMesh.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLViewer.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGLVisual.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGradientBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGroupBox.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGUISignal.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXGZFileStream.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXHash.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXHeader.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXHorizontalFrame.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXICOIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXICOImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXIconDict.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXIconList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXIconSource.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXId.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXIFFIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXIFFImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXImageFrame.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXImageView.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXInputDialog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXIO.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXJPGIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXJPGImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\fxkeys.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXKnob.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXKOI8RCodec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXLabel.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXListBox.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMainWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMat3d.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMat3f.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMat4d.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMat4f.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMatrix.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMDIButton.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMDIChild.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMDIClient.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMemMap.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMemoryStream.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMenuBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMenuButton.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMenuCaption.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMenuCascade.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMenuCheck.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMenuCommand.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMenuPane.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMenuRadio.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMenuSeparator.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMenuTitle.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXMessageBox.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXObject.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXObjectList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXOptionMenu.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPacker.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPath.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPCXIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPCXImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPicker.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPipe.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPNGIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPNGImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPoint.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPopup.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPPMIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPPMImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXPrintDialog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXProgressBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXProgressDialog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXQuatd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXQuatf.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRadioButton.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRanged.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRangef.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRASIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRASImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRealSlider.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRealSpinner.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRecentFiles.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRectangle.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRegion.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRegistry.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXReplaceDialog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRex.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRGBIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRGBImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRootWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRuler.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXRulerView.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXScrollArea.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXScrollBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXScrollPane.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXScrollWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSearchDialog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSeparator.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSettings.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXShell.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXShutter.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSize.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSlider.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSocket.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSphered.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSpheref.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSpinner.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSplashWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSplitter.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSpring.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXStat.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXStatusBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXStatusLine.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXStream.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXString.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXStringDict.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSwitcher.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXSystem.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTabBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTabBook.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTabItem.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTable.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXText.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTextCodec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTextField.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTGAIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTGAImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXThread.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTIFIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTIFImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXToggleButton.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXToolBar.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXToolBarGrip.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXToolBarShell.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXToolBarTab.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXToolTip.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTopWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTranslator.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTreeList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTreeListBox.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXTriStateButton.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXUndoList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\fxunicode.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXURL.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXUTF16Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXUTF32Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXUTF8Codec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXVec2d.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXVec2f.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXVec3d.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXVec3f.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXVec4d.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXVec4f.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\fxver.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXVerticalFrame.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXVisual.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXWizard.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXXBMIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXXBMImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXXPMIcon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\FXXPMImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternLibs\fox\include\xincs.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\ExternLibs\fox\src\version.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

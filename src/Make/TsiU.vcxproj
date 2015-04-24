@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug NoDX|Win32">
+      <Configuration>Debug NoDX</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release NoDX|Win32">
+      <Configuration>Release NoDX</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F0CA1544-01BB-4EC9-A683-E9278FE2AFCF}</ProjectGuid>
+    <RootNamespace>TLibrary</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release NoDX|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug NoDX|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release NoDX|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug NoDX|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\exe\</OutDir>
+    <IntDir>..\..\obj\$(ProjectName)\Debug\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b*.ncb%3b$(TargetPath)%3b$(OutDir)$(TargetName).ilk</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\exe\</OutDir>
+    <IntDir>..\..\obj\$(ProjectName)\Release\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b*.ncb%3b$(TargetPath)%3b$(OutDir)$(TargetName).ilk</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug NoDX|Win32'">
+    <OutDir>..\..\exe\</OutDir>
+    <IntDir>..\..\obj\$(ProjectName)\Debug\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b*.ncb%3b$(TargetPath)%3b$(OutDir)$(TargetName).ilk</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release NoDX|Win32'">
+    <OutDir>..\..\exe\</OutDir>
+    <IntDir>..\..\obj\$(ProjectName)\Release\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b*.ncb%3b$(TargetPath)%3b$(OutDir)$(TargetName).ilk</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\ExternLibs\lua-5.1.3\src;..\TLibMain;..\ExternLibs\fox\include;..\ExternLibs\udt3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;TLIB_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>TsiU_PCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName)_d.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>TsiU_PCH.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)TsiU_d.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\ExternLibs\lua-5.1.3\src;..\TLibMain;..\ExternLibs\fox\include;..\ExternLibs\udt3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>TsiU_PCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName)_r.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>TsiU_PCH.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)TsiU.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug NoDX|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\ExternLibs\lua-5.1.3\src;..\TLibMain;..\ExternLibs\fox\include;..\ExternLibs\udt3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;TLIB_DEBUG;TLIB_NOWINDX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>TsiU_PCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName)_d_nodx.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>TsiU_PCH.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)TsiU_d.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release NoDX|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\ExternLibs\lua-5.1.3\src;..\TLibMain;..\ExternLibs\fox\include;..\ExternLibs\udt3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;TLIB_NOWINDX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>TsiU_PCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName)_r_nodx.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>TsiU_PCH.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)TsiU.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\tlibmain\TMath_Basic.cpp" />
+    <ClCompile Include="..\tlibmain\TMath_Matrix3.cpp" />
+    <ClCompile Include="..\tlibmain\TMath_Matrix4.cpp" />
+    <ClCompile Include="..\tlibmain\TMath_Quaternion.cpp" />
+    <ClCompile Include="..\tlibmain\TMath_Vector2.cpp" />
+    <ClCompile Include="..\tlibmain\TMath_Vector3.cpp" />
+    <ClCompile Include="..\tlibmain\TMath_Vector4.cpp" />
+    <ClCompile Include="..\TLibMain\TUtility_Logger.cpp" />
+    <ClCompile Include="..\TLibMain\TUtility_ProcessSharedMemory.cpp" />
+    <ClCompile Include="..\tlibmain\TInput_InputDevice.cpp" />
+    <ClCompile Include="..\tlibmain\TInput_InputManager.cpp" />
+    <ClCompile Include="..\tlibmain\TCore_Allocator.cpp" />
+    <ClCompile Include="..\tlibmain\TCore_LibSettings.cpp" />
+    <ClCompile Include="..\TLibMain\TCore_Memory.cpp" />
+    <ClCompile Include="..\TLibMain\TCore_Mutex.cpp" />
+    <ClCompile Include="..\tlibmain\TCore_Panic.cpp" />
+    <ClCompile Include="..\TLibMain\TCore_Thread.cpp" />
+    <ClCompile Include="..\tlibmain\TEngine_ClockModule.cpp" />
+    <ClCompile Include="..\tlibmain\TEngine_Engine.cpp" />
+    <ClCompile Include="..\tlibmain\TEngine_EventModule.cpp" />
+    <ClCompile Include="..\tlibmain\TEngine_InputModule.cpp" />
+    <ClCompile Include="..\tlibmain\TEngine_NetworkModule.cpp" />
+    <ClCompile Include="..\TLibMain\TEngine_Object.cpp" />
+    <ClCompile Include="..\TLibMain\TEngine_RenderModule.cpp" />
+    <ClCompile Include="..\tlibmain\TEngine_SceneModule.cpp" />
+    <ClCompile Include="..\tlibmain\TEngine_ScriptModule.cpp" />
+    <ClCompile Include="..\TLibMain\TRender_Camera.cpp" />
+    <ClCompile Include="..\tlibmain\TRender_Light.cpp" />
+    <ClCompile Include="..\TLibMain\TRender_Renderer.cpp" />
+    <ClCompile Include="..\tlibmain\TRender_RenderWindowMsg.cpp" />
+    <ClCompile Include="..\TLibMain\TRender_Texture.cpp" />
+    <ClCompile Include="..\TLibMain\TNetwork_UDTSocket.cpp" />
+    <ClCompile Include="..\tlibmain\TsiU_Func.cpp" />
+    <ClCompile Include="..\tlibmain\TFS_FileManager.cpp" />
+    <ClCompile Include="..\tlibmain\TScript_Debugger.cpp" />
+    <ClCompile Include="..\tlibmain\TScript_Function.cpp" />
+    <ClCompile Include="..\tlibmain\TScript_Machine.cpp" />
+    <ClCompile Include="..\tlibmain\TScript_API.cpp" />
+    <ClCompile Include="..\tlibmain\TScript_API_Dbg.cpp" />
+    <ClCompile Include="..\TLibMain\TAI_BevTree.cpp" />
+    <ClCompile Include="..\TLibMain\TAI_RefValue.cpp" />
+    <ClCompile Include="..\TLibMain\TAI_StringID.cpp" />
+    <ClCompile Include="..\TLibMain\TUI_FXEDXViewer.cpp" />
+    <ClCompile Include="..\TLibMain\TUI_FXEGDIViewer.cpp" />
+    <ClCompile Include="..\TLibMain\TsiU_PCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NoDX|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NoDX|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\tlibmain\TMath_Basic.h" />
+    <ClInclude Include="..\tlibmain\TMath_Header.h" />
+    <ClInclude Include="..\tlibmain\TMath_Matrix3.h" />
+    <ClInclude Include="..\tlibmain\TMath_Matrix4.h" />
+    <ClInclude Include="..\TLibMain\TMath_Point2.h" />
+    <ClInclude Include="..\tlibmain\TMath_Quaternion.h" />
+    <ClInclude Include="..\tlibmain\TMath_Vector2.h" />
+    <ClInclude Include="..\tlibmain\TMath_Vector3.h" />
+    <ClInclude Include="..\tlibmain\TMath_Vector4.h" />
+    <ClInclude Include="..\TLibMain\TUtility_AnyData.h" />
+    <ClInclude Include="..\tlibmain\TUtility_Array.h" />
+    <ClInclude Include="..\TLibMain\TUtility_BitArray.h" />
+    <ClInclude Include="..\tlibmain\TUtility_DebugConsole.h" />
+    <ClInclude Include="..\tlibmain\TUtility_Header.h" />
+    <ClInclude Include="..\tlibmain\TUtility_List.h" />
+    <ClInclude Include="..\TLibMain\TUtility_Logger.h" />
+    <ClInclude Include="..\TLibMain\TUtility_MemPool.h" />
+    <ClInclude Include="..\TLibMain\TUtility_ProcessSharedMemory.h" />
+    <ClInclude Include="..\tlibmain\TUtility_Singleton.h" />
+    <ClInclude Include="..\tlibmain\TInput_Enum.h" />
+    <ClInclude Include="..\TLibMain\TInput_Header.h" />
+    <ClInclude Include="..\tlibmain\TInput_InputDevice.h" />
+    <ClInclude Include="..\tlibmain\TInput_InputManager.h" />
+    <ClInclude Include="..\tlibmain\TCore_Allocator.h" />
+    <ClInclude Include="..\TLibMain\TCore_Assert.h" />
+    <ClInclude Include="..\tlibmain\TCore_Creator.h" />
+    <ClInclude Include="..\tlibmain\TCore_Exception.h" />
+    <ClInclude Include="..\tlibmain\TCore_Header.h" />
+    <ClInclude Include="..\tlibmain\TCore_LibSettings.h" />
+    <ClInclude Include="..\tlibmain\TCore_Memory.h" />
+    <ClInclude Include="..\TLibMain\TCore_Mutex.h" />
+    <ClInclude Include="..\tlibmain\TCore_Panic.h" />
+    <ClInclude Include="..\TLibMain\TCore_Thread.h" />
+    <ClInclude Include="..\tlibmain\TCore_Tick.h" />
+    <ClInclude Include="..\tlibmain\TCore_Types.h" />
+    <ClInclude Include="..\tlibmain\TEngine_ClockModule.h" />
+    <ClInclude Include="..\tlibmain\TEngine_Engine.h" />
+    <ClInclude Include="..\tlibmain\TEngine_EventModule.h" />
+    <ClInclude Include="..\tlibmain\TEngine_Header.h" />
+    <ClInclude Include="..\tlibmain\TEngine_InputModule.h" />
+    <ClInclude Include="..\tlibmain\TEngine_Module.h" />
+    <ClInclude Include="..\tlibmain\TEngine_NetworkModule.h" />
+    <ClInclude Include="..\tlibmain\TEngine_Object.h" />
+    <ClInclude Include="..\tlibmain\TEngine_Private.h" />
+    <ClInclude Include="..\TLibMain\TEngine_RenderModule.h" />
+    <ClInclude Include="..\tlibmain\TEngine_SceneModule.h" />
+    <ClInclude Include="..\tlibmain\TEngine_ScriptModule.h" />
+    <ClInclude Include="..\TLibMain\TRender_Camera.h" />
+    <ClInclude Include="..\tlibmain\TRender_Color.h" />
+    <ClInclude Include="..\tlibmain\TRender_Enum.h" />
+    <ClInclude Include="..\tlibmain\TRender_Header.h" />
+    <ClInclude Include="..\tlibmain\TRender_Light.h" />
+    <ClInclude Include="..\tlibmain\TRender_Renderer.h" />
+    <ClInclude Include="..\tlibmain\TRender_RenderWindow.h" />
+    <ClInclude Include="..\tlibmain\TRender_RenderWindowMsg.h" />
+    <ClInclude Include="..\tlibmain\TRender_SimpleRenderObject.h" />
+    <ClInclude Include="..\TLibMain\TRender_Texture.h" />
+    <ClInclude Include="..\TLibMain\TRender_Viewport.h" />
+    <ClInclude Include="..\tlibmain\TNetwork_Header.h" />
+    <ClInclude Include="..\tlibmain\TNetwork_Socket.h" />
+    <ClInclude Include="..\TLibMain\TNetwork_UDTSocket.h" />
+    <ClInclude Include="..\tlibmain\TsiU.h" />
+    <ClInclude Include="..\tlibmain\TsiU_Func.h" />
+    <ClInclude Include="..\tlibmain\TEvent_EventHandler.h" />
+    <ClInclude Include="..\tlibmain\TEvent_EventID.h" />
+    <ClInclude Include="..\tlibmain\TEvent_EventObject.h" />
+    <ClInclude Include="..\tlibmain\TEvent_Header.h" />
+    <ClInclude Include="..\tlibmain\TFS_File.h" />
+    <ClInclude Include="..\tlibmain\TFS_FileManager.h" />
+    <ClInclude Include="..\tlibmain\TFS_Header.h" />
+    <ClInclude Include="..\tlibmain\TScript_Debugger.h" />
+    <ClInclude Include="..\tlibmain\TScript_Function.h" />
+    <ClInclude Include="..\tlibmain\TScript_Header.h" />
+    <ClInclude Include="..\tlibmain\TScript_Machine.h" />
+    <ClInclude Include="..\tlibmain\TScript_Private.h" />
+    <ClInclude Include="..\tlibmain\TScript_Variant.h" />
+    <ClInclude Include="..\tlibmain\TScript_API.h" />
+    <ClInclude Include="..\tlibmain\TScript_API_Dbg.h" />
+    <ClInclude Include="..\TLibMain\TAI_BevTree.h" />
+    <ClInclude Include="..\TLibMain\TAI_Header.h" />
+    <ClInclude Include="..\TLibMain\TAI_RefValue.h" />
+    <ClInclude Include="..\TLibMain\TAI_StringID.h" />
+    <ClInclude Include="..\TLibMain\TUI_FXEDXViewer.h" />
+    <ClInclude Include="..\TLibMain\TUI_FXEGDIViewer.h" />
+    <ClInclude Include="..\TLibMain\TUI_Header.h" />
+    <ClInclude Include="..\TLibMain\TsiU_PCH.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
