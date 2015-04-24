@@ -26,3 +26,11 @@
 *.exe
 *.out
 *.app
+
+#vs 
+*.sdf
+*.opensdf
+*.suo
+
+# Ŀ¼
+src/ipch
