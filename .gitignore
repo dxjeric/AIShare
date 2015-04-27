@@ -34,3 +34,6 @@
 
 # Ŀ¼
 src/ipch
+
+# vi/vim .swp file
+*.swp
