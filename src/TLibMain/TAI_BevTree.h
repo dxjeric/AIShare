@@ -226,7 +226,7 @@ namespace TsiU{
 			// 设置当前被激活的节点
 			// 1. 设置上次执行的节点
 			// 2. 设置当前激活的节点
-			// 3. 同时设置父节点的的执行节点， 最后Root节点保存了当前执行的节点，下次就不在需要遍历
+			// 3. 同时设置父节点的的执行节点， 最后Root节点保存了当前执行的节点，下次就不在需要遍历 TODO
 			void SetActiveNode(BevNode* _o_Node)
 			{
 				mo_LastActiveNode = mo_ActiveNode;
@@ -248,8 +248,8 @@ namespace TsiU{
 			{
 				return true;
 			}
-			// 具有优先次序的节点执行时才需要 
-			// TODO: _DoTransition到底做了什么
+
+			// TODO: 在变换到其他节点前，需要执行的动作， 也可称为离开节点需要执行的动作
 			virtual void _DoTransition(const BevNodeInputParam& input)
 			{
 			}
@@ -270,22 +270,30 @@ namespace TsiU{
 				return _ui_Index >= 0 && _ui_Index < mul_ChildNodeCount;
 			}
 		protected:
+
 			// 子节点
 			BevNode*                mao_ChildNodeList[k_BLimited_MaxChildNodeCnt];
+
 			// 子节点数量
 			u32						mul_ChildNodeCount;
+
 			// 父节点
 			BevNode*                mo_ParentNode;
+
 			// TODO: 当前激活的节点，目的是减少遍历
 			BevNode*                mo_ActiveNode;
+
 			// TODO: 上次激活的节点,暂时还不知道什么作用
 			BevNode*				mo_LastActiveNode;
+
 			// 节点执行的预判条件
 			BevNodePrecondition*    mo_NodePrecondition;
+
 			// 节点标示符
 			std::string				mz_DebugName;
 		};
 
+		// 具有优先级的selector节点， 如何体现这个优先级
 		class BevNodePrioritySelector : public BevNode
 		{
 		public:
@@ -294,15 +302,22 @@ namespace TsiU{
 				, mui_LastSelectIndex(k_BLimited_InvalidChildNodeIndex)
 				, mui_CurrentSelectIndex(k_BLimited_InvalidChildNodeIndex)
 			{}
+
+			// 遍历所有的子节点，检测是否有可以执行的节点, mui_CurrentSelectIndex将要执行的节点Index
 			virtual bool _DoEvaluate(const BevNodeInputParam& input);
+			// TODO: 在变换到其他节点前，需要执行的动作， 也可称为离开节点需要执行的动作
 			virtual void _DoTransition(const BevNodeInputParam& input);
+			// 执行接口
 			virtual BevRunningStatus _DoTick(const BevNodeInputParam& input, BevNodeOutputParam& output);
 
 		protected:
+			// 当前Tick将要执行的节点Index
 			u32 mui_CurrentSelectIndex;
+			// 上次执行的节点Index
 			u32 mui_LastSelectIndex;
 		};
 
+		// 没有优先级的选择节点		
 		class BevNodeNonePrioritySelector : public BevNodePrioritySelector
 		{
 		public:
@@ -312,6 +327,7 @@ namespace TsiU{
 			virtual bool _DoEvaluate(const BevNodeInputParam& input);
 		};
 
+		// 顺序节点
 		class BevNodeSequence : public BevNode
 		{
 		public:
@@ -324,6 +340,7 @@ namespace TsiU{
 			virtual BevRunningStatus _DoTick(const BevNodeInputParam& input, BevNodeOutputParam& output);
 
 		private:
+			// 当前执行到的节点的Index
 			u32 mui_CurrentNodeIndex;
 		};
 

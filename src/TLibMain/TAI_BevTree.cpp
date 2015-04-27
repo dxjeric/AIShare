@@ -1,3 +1,18 @@
+//-------------------------------------------------------------------------------------------------
+// 	可以自由使用，如果使用请注明出处和作者，如下
+//	*******************************************************
+//	File Path:	E:\GitHub\AIShare\src\TLibMain
+//	File Name:	TAI_BevTree.cpp
+// 	Author:		Finney
+// 	Blog:		AI分享站(http://www.aisharing.com/)
+// 	A-Email:	finneytang@gmail.com
+//	*******************************************************
+// 	Modify:		Eric 添加注释,说明
+// 	E-EMail:	frederick.dang@gmail.com
+// 	Git:		https://github.com/Eric-Dang/AIShare.git
+//	*******************************************************
+//	purpose:	
+//-------------------------------------------------------------------------------------------------
 #include "TAI_BevTree.h"
 
 namespace TsiU{
@@ -5,6 +20,8 @@ namespace TsiU{
 	//-------------------------------------------------------------------------------------
 	// BevNodePrioritySelector
 	//-------------------------------------------------------------------------------------
+	// 遍历所有的子节点，检测是否有可以执行的节点，如果有则将可执行的节点的Index赋值给mui_CurrentSelectIndex	
+	// 每次的评估都会重新检测所有的子节点
 	bool BevNodePrioritySelector::_DoEvaluate(const BevNodeInputParam& input)
 	{
 		mui_CurrentSelectIndex = k_BLimited_InvalidChildNodeIndex;
@@ -33,6 +50,8 @@ namespace TsiU{
 		BevRunningStatus bIsFinish = k_BRS_Finish;
 		if(_bCheckIndex(mui_CurrentSelectIndex))
 		{
+			// 执行其他子节点时，执行上次节点的Transition
+			// 执行完成后，修改上次执行的节点Index(mui_LastSelectIndex)
 			if(mui_LastSelectIndex != mui_CurrentSelectIndex)  //new select result
 			{
 				if(_bCheckIndex(mui_LastSelectIndex))
@@ -43,6 +62,7 @@ namespace TsiU{
 				mui_LastSelectIndex = mui_CurrentSelectIndex;
 			}
 		}
+		// 执行当前选着的子节点
 		if(_bCheckIndex(mui_LastSelectIndex))
 		{
 			//Running node
@@ -57,6 +77,8 @@ namespace TsiU{
 	//-------------------------------------------------------------------------------------
 	// BevNodeNonePrioritySelector
 	//-------------------------------------------------------------------------------------
+	// 和具有优先级的选择节点的区别，每次先检测当前的几点是否可以执行，如果可以则继续执行，如果不可以
+	// 则执行BevNodePrioritySelector::_DoEvaluate重新选择
 	bool BevNodeNonePrioritySelector::_DoEvaluate(const BevNodeInputParam& input)
 	{
 		if(_bCheckIndex(mui_CurrentSelectIndex))
@@ -72,6 +94,7 @@ namespace TsiU{
 	//-------------------------------------------------------------------------------------
 	// BevNodeSequence
 	//-------------------------------------------------------------------------------------
+	// 每次只执行1个节点， 如果当前节点无效，即重头再来
 	bool BevNodeSequence::_DoEvaluate(const BevNodeInputParam& input)
 	{
 		unsigned int testNode;
@@ -97,29 +120,35 @@ namespace TsiU{
 		}
 		mui_CurrentNodeIndex = k_BLimited_InvalidChildNodeIndex;
 	}
+
 	BevRunningStatus BevNodeSequence::_DoTick(const BevNodeInputParam& input, BevNodeOutputParam& output)
 	{
 		BevRunningStatus bIsFinish = k_BRS_Finish;
 
-		//First Time
+		//First Time 循环执行
 		if(mui_CurrentNodeIndex == k_BLimited_InvalidChildNodeIndex)
 			mui_CurrentNodeIndex = 0;
 
+		// 执行成功
 		BevNode* oBN = mao_ChildNodeList[mui_CurrentNodeIndex];
 		bIsFinish = oBN->Tick(input, output);
+		// 子节点执行完成
 		if(bIsFinish == k_BRS_Finish)
 		{
+			// 一个节点执行完成后，会将mui_CurrentNodeIndex执行下一个子节点的Index
 			++mui_CurrentNodeIndex;
-			//sequence is over
+			//sequence is over 全部执行完成则将index设置成无效Index
 			if(mui_CurrentNodeIndex == mul_ChildNodeCount)
 			{
 				mui_CurrentNodeIndex = k_BLimited_InvalidChildNodeIndex;
 			}
 			else
 			{
+				// 如果不是最后一个节点，并且当前子节点执行成功，则表明节点还在执行
 				bIsFinish = k_BRS_Executing;
 			}
 		}
+		// 执行报错 则执行无效
 		if(bIsFinish < 0)
 		{
 			mui_CurrentNodeIndex = k_BLimited_InvalidChildNodeIndex;
