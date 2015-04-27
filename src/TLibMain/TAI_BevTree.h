@@ -1,3 +1,18 @@
+//-------------------------------------------------------------------------------------------------
+// 	可以自由使用，如果使用请注明出处和作者，如下
+//	*******************************************************
+//	file path:	E:\GitHub\AIShare\src\TLibMain
+//	file name:	TAI_BevTree.h
+// 	Author:		Finney
+// 	Blog:		AI分享站(http://www.aisharing.com/)
+// 	A-Email:	finneytang@gmail.com
+//	*******************************************************
+// 	Modify:		Eric 添加注释,说明
+// 	E-EMail:	frederick.dang@gmail.com
+// 	Git:		https://github.com/Eric-Dang/AIShare.git
+//	*******************************************************
+//	purpose:	
+//-------------------------------------------------------------------------------------------------
 #ifndef __TAI_BEVTREE_H__
 #define __TAI_BEVTREE_H__
 
@@ -6,8 +21,8 @@
 
 namespace TsiU{
 	namespace AI{namespace BehaviorTree{
-
-#define k_BLimited_MaxChildNodeCnt              16
+// 自己点的最大数量 因为子节点存储使用的是数组，Index是0-(k_BLimited_MaxChildNodeCnt-1)，因此k_BLimited_MaxChildNodeCnt也是无效的Index 
+#define k_BLimited_MaxChildNodeCnt              16		
 #define k_BLimited_InvalidChildNodeIndex        k_BLimited_MaxChildNodeCnt
 
 		enum E_ParallelFinishCondition
@@ -34,6 +49,7 @@ namespace TsiU{
 		typedef AnyData BevNodeOutputParam;
 
 		//-------------------------------------------------------------------------------------------------------------------------------------
+		// 节点预判类
 		class BevNodePrecondition
 		{
 		public:
@@ -131,6 +147,7 @@ namespace TsiU{
 			BevNodePrecondition* m_rhs;
 		};
 		//-------------------------------------------------------------------------------------------------------------------------------------
+		// 行为树节点父类
 		class BevNode
 		{
 		public:
@@ -155,10 +172,12 @@ namespace TsiU{
 				}
 				D_SafeDelete(mo_NodePrecondition);
 			}
+			// 检查节点是否可以执行， 验证了前置条件以及节点自身的评估
 			bool Evaluate(const BevNodeInputParam& input)
 			{
 				return (mo_NodePrecondition == NULL || mo_NodePrecondition->ExternalCondition(input)) && _DoEvaluate(input);
 			}
+			// TODO: _DoTransition 遗留，后续添加注释
 			void Transition(const BevNodeInputParam& input)
 			{
 				_DoTransition(input);
@@ -168,6 +187,7 @@ namespace TsiU{
 				return _DoTick(input, output);
 			}
 			//---------------------------------------------------------------
+			// 添加子节点
 			BevNode& AddChildNode(BevNode* _o_ChildNode)
 			{
 				if(mul_ChildNodeCount == k_BLimited_MaxChildNodeCnt)
@@ -180,6 +200,7 @@ namespace TsiU{
 				++mul_ChildNodeCount;
 				return (*this);
 			}
+			// 设置节点前置条件， 更换条件
 			BevNode& SetNodePrecondition(BevNodePrecondition* _o_NodePrecondition)
 			{
 				if(mo_NodePrecondition != _o_NodePrecondition)
@@ -191,15 +212,21 @@ namespace TsiU{
 				}
 				return (*this);
 			}
+			// 设置节点标示
 			BevNode& SetDebugName(const char* _debugName)
 			{
 				mz_DebugName = _debugName;
 				return (*this);
 			}
+			// TODO:获取上次激活的节点
 			const BevNode* oGetLastActiveNode() const
 			{
 				return mo_LastActiveNode;
 			}
+			// 设置当前被激活的节点
+			// 1. 设置上次执行的节点
+			// 2. 设置当前激活的节点
+			// 3. 同时设置父节点的的执行节点， 最后Root节点保存了当前执行的节点，下次就不在需要遍历
 			void SetActiveNode(BevNode* _o_Node)
 			{
 				mo_LastActiveNode = mo_ActiveNode;
@@ -207,6 +234,7 @@ namespace TsiU{
 				if(mo_ParentNode != NULL)
 					mo_ParentNode->SetActiveNode(_o_Node);
 			}
+			// 获取节点标示
 			const char* GetDebugName() const
 			{
 				return mz_DebugName.c_str();
@@ -215,33 +243,46 @@ namespace TsiU{
 			//--------------------------------------------------------------
 			// virtual function
 			//--------------------------------------------------------------
+			// 评估是否需要执行该节点
 			virtual bool _DoEvaluate(const BevNodeInputParam& input)
 			{
 				return true;
 			}
+			// 具有优先次序的节点执行时才需要 
+			// TODO: _DoTransition到底做了什么
 			virtual void _DoTransition(const BevNodeInputParam& input)
 			{
 			}
+			// 节点循环执行的入口
 			virtual BevRunningStatus _DoTick(const BevNodeInputParam& input, BevNodeOutputParam& output)
 			{
 				return k_BRS_Finish;
 			}
 		protected:
+			// 设置父节点
 			void _SetParentNode(BevNode* _o_ParentNode)
 			{
 				mo_ParentNode = _o_ParentNode;
 			}
+			// 检查Index的有效性
 			bool _bCheckIndex(u32 _ui_Index) const
 			{
 				return _ui_Index >= 0 && _ui_Index < mul_ChildNodeCount;
 			}
 		protected:
+			// 子节点
 			BevNode*                mao_ChildNodeList[k_BLimited_MaxChildNodeCnt];
+			// 子节点数量
 			u32						mul_ChildNodeCount;
+			// 父节点
 			BevNode*                mo_ParentNode;
+			// TODO: 当前激活的节点，目的是减少遍历
 			BevNode*                mo_ActiveNode;
+			// TODO: 上次激活的节点,暂时还不知道什么作用
 			BevNode*				mo_LastActiveNode;
+			// 节点执行的预判条件
 			BevNodePrecondition*    mo_NodePrecondition;
+			// 节点标示符
 			std::string				mz_DebugName;
 		};
 
