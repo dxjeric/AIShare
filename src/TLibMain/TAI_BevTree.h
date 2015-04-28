@@ -176,9 +176,8 @@ namespace TsiU{
 			bool Evaluate(const BevNodeInputParam& input)
 			{
 				return (mo_NodePrecondition == NULL || mo_NodePrecondition->ExternalCondition(input)) && _DoEvaluate(input);
-			}
-			// TODO: _DoTransition 遗留，后续添加注释
-			// 选择节点在执行完一个子节点后，切换到其他节点时，需要先执行
+			}			
+			// 选择节点在执行完一个子节点后，切换到其他节点时，需要先执行 CHECK
 			void Transition(const BevNodeInputParam& input)
 			{
 				_DoTransition(input);
@@ -219,7 +218,7 @@ namespace TsiU{
 				mz_DebugName = _debugName;
 				return (*this);
 			}
-			// TODO:获取上次激活的节点
+			// 获取上次激活的节点
 			const BevNode* oGetLastActiveNode() const
 			{
 				return mo_LastActiveNode;
@@ -227,7 +226,7 @@ namespace TsiU{
 			// 设置当前被激活的节点
 			// 1. 设置上次执行的节点
 			// 2. 设置当前激活的节点
-			// 3. 同时设置父节点的的执行节点， 最后Root节点保存了当前执行的节点，下次就不在需要遍历 TODO
+			// 3. 同时设置父节点的的执行节点， 最后Root节点保存了当前执行的节点，下次就不在需要遍历 CHECK
 			void SetActiveNode(BevNode* _o_Node)
 			{
 				mo_LastActiveNode = mo_ActiveNode;
@@ -250,7 +249,7 @@ namespace TsiU{
 				return true;
 			}
 
-			// TODO: 在变换到其他节点前，需要执行的动作， 也可称为离开节点需要执行的动作
+			// 选择节点在变换到其他子节点前，需要执行的动作， 也可称为离开节点需要执行的动作
 			virtual void _DoTransition(const BevNodeInputParam& input)
 			{
 			}
@@ -281,10 +280,10 @@ namespace TsiU{
 			// 父节点
 			BevNode*                mo_ParentNode;
 
-			// TODO: 当前激活的节点，目的是减少遍历
+			// 当前激活的节点，目的是减少遍历
 			BevNode*                mo_ActiveNode;
 
-			// TODO: 上次激活的节点,暂时还不知道什么作用
+			// 上次激活的节点,暂时还不知道什么作用
 			BevNode*				mo_LastActiveNode;
 
 			// 节点执行的预判条件
@@ -306,7 +305,7 @@ namespace TsiU{
 
 			// 遍历所有的子节点，检测是否有可以执行的节点, mui_CurrentSelectIndex将要执行的节点Index
 			virtual bool _DoEvaluate(const BevNodeInputParam& input);
-			// TODO: 在变换到其他节点前，需要执行的动作， 也可称为离开节点需要执行的动作
+			// 在变换到其他节点前，需要执行的动作， 也可称为离开节点需要执行的动作， 非必须执行
 			virtual void _DoTransition(const BevNodeInputParam& input);
 			// 执行接口
 			virtual BevRunningStatus _DoTick(const BevNodeInputParam& input, BevNodeOutputParam& output);
@@ -345,8 +344,7 @@ namespace TsiU{
 			u32 mui_CurrentNodeIndex;
 		};
 
-		// TODO:终端节点 作用？？？
-		// 含有简单的状态机
+		// 叶子节点，行为节点 节点执行分为三个状态
 		class BevNodeTerminal : public BevNode
 		{
 		public:

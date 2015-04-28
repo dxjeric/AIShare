@@ -182,12 +182,12 @@ namespace TsiU{
 		}
 		if(me_Status == k_TNS_Running)
 		{
-			// TODO为什么这块每次都要调用 SetActiveNode(this);
+			// CHECK 为什么这块每次都要调用 SetActiveNode(this);
 			// 按照节点处理逻辑， k_TNS_Ready -> k_TNS_Running -> k_TNS_Finish -> k_TNS_Ready
-			// 觉得这块不需要再SetActiveNode
+			// 觉得这块不需要再SetActiveNode， 是不是有什么特殊的？
 			bIsFinish = _DoExecute(input, output);
 			SetActiveNode(this);
-			// TODO: 这块为什么要 || bIsFinish < 0 感觉这块没有必要 ？？
+			// CHECK: 这块为什么要 || bIsFinish < 0 感觉这块没有必要 ？？
 			if(bIsFinish == k_BRS_Finish || bIsFinish < 0)
 				me_Status = k_TNS_Finish;
 		}
@@ -199,7 +199,7 @@ namespace TsiU{
 			me_Status = k_TNS_Ready;
 			mb_NeedExit = FALSE;
 			SetActiveNode(NULL);
-			// 是否可以删除？？ TODO
+			// 这的应该可以删掉 CHECK
 			// return bIsFinish;
 		}
 		return bIsFinish;
@@ -245,7 +245,7 @@ namespace TsiU{
 		for(unsigned int i = 0; i < mul_ChildNodeCount; ++i)
 		{
 			BevNode* oBN = mao_ChildNodeList[i];
-			// k_PFC_OR 是指成功执行一个节点，还是执行完几个节点(是否成功无所谓)
+			// k_PFC_OR 是指成功执行一个节点，还是执行完几个节点(是否成功无所谓) CHECK
 			if(me_FinishCondition == k_PFC_OR)
 			{
 				if(mab_ChildNodeStatus[i] == k_BRS_Executing)
@@ -253,7 +253,7 @@ namespace TsiU{
 					mab_ChildNodeStatus[i] = oBN->Tick(input, output);
 				}
 
-				// 节点需要执行成功吧！ TODO
+				// 节点需要执行成功吧！ CHECK
 				// 这块设计思路没有看明白， error也要返回finish吗？
 				if(mab_ChildNodeStatus[i] != k_BRS_Executing)
 				{
@@ -327,8 +327,9 @@ namespace TsiU{
 				if(mi_LoopCount != kInfiniteLoop)
 				{
 					mi_CurrentCount++;
-					// TODO: 这块判断条件应该是 mi_CurrentCount != mi_LoopCount, 否则就只执行1次
-					if(mi_CurrentCount == mi_LoopCount)
+					// CHECK: 这块判断条件应该是 mi_CurrentCount != mi_LoopCount, 否则就只执行1次
+					// if(mi_CurrentCount == mi_LoopCount) // 原始版本
+					if (mi_CurrentCount != mi_LoopCount)
 					{
 						bIsFinish = k_BRS_Executing;
 					}
