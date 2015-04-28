@@ -178,6 +178,7 @@ namespace TsiU{
 				return (mo_NodePrecondition == NULL || mo_NodePrecondition->ExternalCondition(input)) && _DoEvaluate(input);
 			}
 			// TODO: _DoTransition 遗留，后续添加注释
+			// 选择节点在执行完一个子节点后，切换到其他节点时，需要先执行
 			void Transition(const BevNodeInputParam& input)
 			{
 				_DoTransition(input);
@@ -344,6 +345,8 @@ namespace TsiU{
 			u32 mui_CurrentNodeIndex;
 		};
 
+		// TODO:终端节点 作用？？？
+		// 含有简单的状态机
 		class BevNodeTerminal : public BevNode
 		{
 		public:
@@ -353,11 +356,19 @@ namespace TsiU{
 				, mb_NeedExit(false)
 			{}
 			virtual void _DoTransition(const BevNodeInputParam& input);
+			// 根据当前节点的状态执行对应的处理
+			// k_TNS_Ready:		设置当前激活节点， 跳转状态到Running, 后续继续执行Running操作
+			// k_TNS_Running:	执行_DoExecute,根据返回再设定后续状态, 如果设置为TNS_Finish，则会后续直接执行Finish操作
+			// k_TNS_Finish:	执行Finish操作， 并且清空节点相关数据
 			virtual BevRunningStatus _DoTick(const BevNodeInputParam& input, BevNodeOutputParam& output);
 
 		protected:
+			// _DoEnter 和 _DoExit 必须配对出现， 如果有Enter在节点执行完成前必须有Exit, 否则都不出现
+			// Init
 			virtual void				_DoEnter(const BevNodeInputParam& input)								{}
+			// Runing 执行
 			virtual BevRunningStatus	_DoExecute(const BevNodeInputParam& input, BevNodeOutputParam& output)	{ return k_BRS_Finish;}
+			// Leave
 			virtual void				_DoExit(const BevNodeInputParam& input, BevRunningStatus _ui_ExitID)	{}
 
 		private:
@@ -365,6 +376,7 @@ namespace TsiU{
 			bool                mb_NeedExit;
 		};
 
+		// 并发节点
 		class BevNodeParallel : public BevNode
 		{
 		public:
@@ -375,17 +387,22 @@ namespace TsiU{
 				for(unsigned int i = 0; i < k_BLimited_MaxChildNodeCnt; ++i)
 					mab_ChildNodeStatus[i] = k_BRS_Executing;
 			}
+			// 检查所有需要执行的节点是否都可以执行
 			virtual bool _DoEvaluate(const BevNodeInputParam& input);
+			// 重新设置所有子节点可运行， 同时执行所有子节点的Transition
 			virtual void _DoTransition(const BevNodeInputParam& input);
 			virtual BevRunningStatus _DoTick(const BevNodeInputParam& input, BevNodeOutputParam& output);
 
 			BevNodeParallel& SetFinishCondition(E_ParallelFinishCondition _e_Condition);
 
 		private:
+			// 返回结果处理方式 And or Or
 			E_ParallelFinishCondition me_FinishCondition;
+			// 子节点的运行状态
 			BevRunningStatus		  mab_ChildNodeStatus[k_BLimited_MaxChildNodeCnt];
 		};
 
+		// 循环节点 该节点只允许有一个子节点
 		class BevNodeLoop : public BevNode
 		{
 		public:
@@ -402,7 +419,9 @@ namespace TsiU{
 			virtual BevRunningStatus _DoTick(const BevNodeInputParam& input, BevNodeOutputParam& output);
 
 		private:
+			// 循环的次数
 			int mi_LoopCount;
+			// 当前已经执行的次数
 			int mi_CurrentCount;
 		};
 
@@ -440,6 +459,7 @@ namespace TsiU{
 				oCreateNodeCommon(pReturn, _o_Parent, _debugName);
 				return (*pReturn);
 			}
+			// 创建叶子节点 class T : public BevNodeTerminal
 			template<typename T>
 			static BevNode& oCreateTeminalNode(BevNode* _o_Parent, const char* _debugName)
 			{
