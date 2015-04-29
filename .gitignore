@@ -31,9 +31,12 @@
 *.sdf
 *.opensdf
 *.suo
+*.user
 
 # Ŀ¼
 src/ipch
+exe/
+obj/
 
 # vi/vim .swp file
 *.swp
