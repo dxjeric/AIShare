@@ -186,8 +186,9 @@ namespace TsiU{
 			// 按照节点处理逻辑， k_TNS_Ready -> k_TNS_Running -> k_TNS_Finish -> k_TNS_Ready
 			// 觉得这块不需要再SetActiveNode， 是不是有什么特殊的？
 			bIsFinish = _DoExecute(input, output);
-			SetActiveNode(this);
+			// SetActiveNode(this);
 			// CHECK: 这块为什么要 || bIsFinish < 0 感觉这块没有必要 ？？
+			// 有个约定，就是如果节点返回小于0的值，也表示结束，本意是想让使用的人可以自定义表示结束的返回值
 			if(bIsFinish == k_BRS_Finish || bIsFinish < 0)
 				me_Status = k_TNS_Finish;
 		}
@@ -199,8 +200,6 @@ namespace TsiU{
 			me_Status = k_TNS_Ready;
 			mb_NeedExit = FALSE;
 			SetActiveNode(NULL);
-			// 这的应该可以删掉 CHECK
-			// return bIsFinish;
 		}
 		return bIsFinish;
 	}
@@ -253,8 +252,7 @@ namespace TsiU{
 					mab_ChildNodeStatus[i] = oBN->Tick(input, output);
 				}
 
-				// 节点需要执行成功吧！ CHECK
-				// 这块设计思路没有看明白， error也要返回finish吗？
+				// 只要非执行都认为执行完成 HADN
 				if(mab_ChildNodeStatus[i] != k_BRS_Executing)
 				{
 					for(unsigned int i = 0; i < k_BLimited_MaxChildNodeCnt; ++i)
@@ -327,8 +325,6 @@ namespace TsiU{
 				if(mi_LoopCount != kInfiniteLoop)
 				{
 					mi_CurrentCount++;
-					// CHECK: 这块判断条件应该是 mi_CurrentCount != mi_LoopCount, 否则就只执行1次
-					// if(mi_CurrentCount == mi_LoopCount) // 原始版本
 					if (mi_CurrentCount != mi_LoopCount)
 					{
 						bIsFinish = k_BRS_Executing;
